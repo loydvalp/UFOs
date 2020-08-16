@@ -6,10 +6,8 @@ Instead of filtering by a single item, provide the readers with the ability to f
 
 ## Resources
 
-- Data.JS
-- VS Code
-- Google Chrome
-
+- Data Source: Data.JS
+- Software: Visual Studio Code 1.45.1, Google Chrome Inspect
 
 ## Challenge Overview
 
