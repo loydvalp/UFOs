@@ -28,10 +28,10 @@ function handleClick() {
   // This function will replace your handleClick function
   // Save the element, value, and id of the filter that was changed
   let date = d3.select("#datetime").property("value");
-  let city = d3.select("#city").property("value").toLowerCase();
-  let state = d3.select("#state").property("value").toLowerCase();
-  let country = d3.select("#country").property("value").toLowerCase();
-  let shape = d3.select("#shape").property("value").toLowerCase();
+  let city = d3.select("#city").property("value").toLowerCase().trim();
+  let state = d3.select("#state").property("value").toLowerCase().trim();
+  let country = d3.select("#country").property("value").toLowerCase().trim();
+  let shape = d3.select("#shape").property("value").toLowerCase().trim();
   let filteredData = tableData;
 
   // If a filter value was entered then add that filterId and value
