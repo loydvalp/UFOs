@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Instead of filtering by a single item, provide the readers with the ability to filter by multiple factors.
+In module 11, the data journalist was able to write about her hometown McMinnville, OR, which is famous for UFOs' sighting.  I build a table using data stored in a JavaScript array(data.js). I created filters to make the table fully dynamic, which means it will react to users' input.  After a user inputs what they would like to see, the filter information will update the table for easy viewing.  
 
 ## Resources
 
@@ -11,7 +11,7 @@ Instead of filtering by a single item, provide the readers with the ability to f
 
 ## Challenge Overview
 
-Will create additional filters for the webpage.  The advanced filtering capability will allow users to filter the data by multiple factors.
+Instead of filtering by a single item, provide the readers with the ability to filter by multiple factors.  Create additional filters for the webpage.  The advanced filtering capability will allow users to filter the data by multiple factors.
 
 The goals of this challenge are for you to:
 
@@ -21,3 +21,10 @@ The goals of this challenge are for you to:
 
 ## Recommendation
 - 
+
+
+
+
+
+
+![](static/images/screencapture.png)
