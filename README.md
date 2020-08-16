@@ -21,11 +21,14 @@ The goals of this challenge are for you to:
 
 ## Recommendation
 
-My recommedation would be to make the website more flexible for users input.  As of now, the user must put in the addveration of the state and the entire name of the city.  If the user forgets the name of city or only know a few letters of the city, the current website will not filter the table.  For example, 
+My recommendation would be to make the website more flexible for users' input.  The user must put in an abbreviation of the state and the entire name of the city to be able to filter the table.  If the user forgets the name of a city or only knows a few letters of a city, the current website will not filter the table.  See below for an example.
+
+Full city's Name
+![](static/images/Benton.PNG)
+
+First few letters of city
+![](static/images/Ben.PNG)
 
 
-
-
-
-
+UFO Sightings
 ![](static/images/screencapture.png)
