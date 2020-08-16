@@ -35,7 +35,6 @@ function handleClick() {
   let filteredData = tableData;
 
   // If a filter value was entered then add that filterId and value
-  // to the filters list. Otherwise, clear that filter from the filters object
   if (date) {
     filteredData = filteredData.filter((row) => row.datetime === date);
   }
@@ -51,15 +50,10 @@ function handleClick() {
   if (shape) {
     filteredData = filteredData.filter((row) => row.shape === shape);
   }
-  // Call function to apply all filters and rebuild the table
-  // Set the filteredData to the tableData
-  // Loop through all of the filters and keep any data that
-  // matches the filter values
 
   // Finally, rebuild the table using the filtered Data
   buildTable(filteredData);
 }
-// Attach an event to listen for changes to each filter
 
 // Hint: You'll need to select the event and what it is listening for within each set of parenthesis
 d3.selectAll("#filter-btn").on("click", handleClick);
