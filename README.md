@@ -20,7 +20,8 @@ The goals of this challenge are for you to:
 - Update and populate the dynamic filters and table using JavaScript and HTML.
 
 ## Recommendation
-- 
+
+My recommedation would be to make the website more flexible for users input.  As of now, the user must put in the addveration of the state and the entire name of the city.  If the user forgets the name of city or only know a few letters of the city, the current website will not filter the table.  For example, 
 
 
 
